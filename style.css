@@ -24,6 +24,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    color: black;
+}
+
+.img-placeholder:hover {
+    transform: scale(105%);
+    color: tomato;
 }
 
 img {
@@ -38,16 +45,34 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(95%);
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;
 }
 
 .link {
     text-decoration: none;
 }
+
+
+
+
+
 
 .header-main {
     display: flex;
@@ -55,6 +80,9 @@ img {
     align-items: center;
     gap: 50px;
     padding-bottom: 80px;
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -92,6 +120,10 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.card {
+    cursor: pointer;
 }
 
 .card:hover {
@@ -157,6 +189,7 @@ h2 {
     padding: 10px 40px;
     width: 40%;
     justify-content: center;
+    cursor: pointer;
 }
 
 
