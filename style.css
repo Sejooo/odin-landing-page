@@ -69,11 +69,6 @@ img {
     text-decoration: none;
 }
 
-
-
-
-
-
 .header-main {
     display: flex;
     justify-content: center;
@@ -85,12 +80,6 @@ img {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
 .main {
     display: block;
     justify-content: center;
@@ -98,12 +87,6 @@ img {
     max-width: 80%;
     margin: 0 auto;
 }
-
-
-
-
-
-
 
 .main-top {
     display: block;
@@ -135,12 +118,9 @@ h2 {
     height: 100px;
 }
 
-
-
 .description {
     width: 200px;
 }
-
 
 .main-core {
     display: block;
@@ -152,12 +132,6 @@ h2 {
     border-radius: 15px;
     margin-top: 40px;
 }
-
-
-
-
-
-
 
 .main-bottom {
     display: flex;
@@ -191,12 +165,6 @@ h2 {
     justify-content: center;
     cursor: pointer;
 }
-
-
-
-
-
-
 
 .link,
 .copyright {
