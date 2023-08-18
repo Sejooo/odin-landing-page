@@ -6,9 +6,24 @@ body {
 
 }
 
+body {
+    padding-left: 100;
+}
+
 header,
 footer {
     background-color: #1F2937;
+}
+
+.img-placeholder {
+    border: #E5E7EB 1px solid;
+    background-color: #E5E7EB !important;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -36,20 +51,64 @@ img {
 
 .header-main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 80px;
 }
+
+
+
+
+
+
 
 .main {
     display: block;
     justify-content: center;
     align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
+
+
+
+
+
+
 .main-top {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
+h2 {
+    font-size: 48px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card:hover {
+    transform: scale(105%);
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.description {
+    width: 200px;
+}
+
 
 .main-core {
     display: block;
@@ -59,7 +118,14 @@ img {
     background-color: #E5E7EB;
     padding: 30px 100px;
     border-radius: 15px;
+    margin-top: 40px;
 }
+
+
+
+
+
+
 
 .main-bottom {
     display: flex;
@@ -77,6 +143,7 @@ img {
     border-radius: 15px;
     color: #F9FAF8;
     gap: 10px;
+    font-family: "Light Italic", "Helvetica Neue", "Helvetica";
 }
 
 .signUp {
@@ -91,6 +158,12 @@ img {
     width: 40%;
     justify-content: center;
 }
+
+
+
+
+
+
 
 .link,
 .copyright {
